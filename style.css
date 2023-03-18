@@ -81,7 +81,9 @@ body {
   font-weight: 400;
   font-size: 15px;
 }
-
+.about-lside {
+    flex-basis: 70%;
+}
 .footer address {
   font-style: normal;
   color: #999;
@@ -257,7 +259,7 @@ h1 {
 }
 
 .clock img {
-	height: 150px;
+height: 269px;
 	width: auto;
 	margin-bottom: 20px;
 }
