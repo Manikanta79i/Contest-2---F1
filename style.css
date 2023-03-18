@@ -1,1 +1,175 @@
 
+/* Header styles */
+
+*{
+	font-family: 'Poppins', sans-serif;
+}
+body {
+background-color: #000;
+color: #fff;
+font-family: 'Poppins', sans-serif;
+padding: 15px;
+}
+.logo {
+font-size: 29px;
+font-weight: bold;
+}
+button {
+    background-color: #fecb03;
+    width: 205px;
+    height: 53px;
+    border-radius: 34px;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.logo img {
+	height: 50px;
+	width: auto;
+	margin-right: 20px;
+}
+h1 {
+    margin-left: 25px;
+}
+.search-bar input {
+	padding: 10px;
+	width: 400px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid #000;
+	background-color: black;
+}
+
+.buttons button {
+	padding: 10px;
+	margin-left: 10px;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+/* About Us section styles */
+.about-us {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
+}
+
+.tagline {
+    display: flex;
+	padding: 20px;
+	text-align: center;
+}
+
+.tagline img {
+    height: 85px;
+	width: auto;
+	margin-bottom: 20px;
+}
+
+.tagline h2 {
+	margin-bottom: 10px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.tagline p {
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+
+.clock {
+	flex-basis: 33.33%;
+	padding: 20px;
+	text-align: center;
+}
+
+.clock img {
+	height: 150px;
+	width: auto;
+	margin-bottom: 20px;
+}
+
+.clock p {
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+
+/* Our Categories section styles */
+.our-categories {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
+}
+
+.category-card {
+	flex-basis: 33.33%;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.category-card h3 {
+	margin-bottom: 10px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.category-card p {
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+
+.category-card button {
+	padding: 10px;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+M@ni9Dazl
+
+/* Footer styles */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer-logo img {
+	height: 50px;
+	width: auto;
+	margin-right: 20px;
+}
+
+.site-map ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.site-map li {
+	margin-bottom: 10px;
+}
+
+.social-links a {
+	color: #fff;
+	margin-left: 20px;
+	font-size: 24px;
+}
